@@ -13,6 +13,7 @@
 
     <modules>
         <module>Java_Agent</module>
+        <module>Java_DesignPattern</module>
     </modules>
 
 
