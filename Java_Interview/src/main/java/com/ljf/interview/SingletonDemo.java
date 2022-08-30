@@ -3,7 +3,7 @@ package com.ljf.interview;
 /**
  * @author ljf
  * @date 2022/8/30 20:11
- * @Description
+ * @Description 无法在多线程情况下保证单例
  */
 public class SingletonDemo {
 
