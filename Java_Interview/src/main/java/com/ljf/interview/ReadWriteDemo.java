@@ -28,14 +28,14 @@ public class ReadWriteDemo {
     }
 
     public void read(String key){
-        System.out.println(Thread.currentThread().getName()+": 开始写");
+        System.out.println(Thread.currentThread().getName()+": 开始读");
         try {
-            TimeUnit.MILLISECONDS.sleep(300);
+            TimeUnit.MILLISECONDS.sleep(400);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
         System.out.println(map.get(key));
-        System.out.println(Thread.currentThread().getName()+": 写完成");
+        System.out.println(Thread.currentThread().getName()+": 读完成");
     }
 
 
@@ -55,7 +55,5 @@ public class ReadWriteDemo {
                 readWriteDemo.read(String.valueOf(tempInt));
             },String.valueOf(i)).start();
         }
-
-
     }
 }
