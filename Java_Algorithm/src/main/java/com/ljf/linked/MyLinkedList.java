@@ -29,6 +29,11 @@ public class MyLinkedList {
 
     }
 
+    /**
+     * 链表翻转
+     * @param head
+     * @return
+     */
     private ListNode flip(ListNode head) {
 
         ListNode prev = null;
@@ -44,6 +49,11 @@ public class MyLinkedList {
         return prev;
     }
 
+    /**
+     * 链表添加元素
+     * @param index
+     * @param value
+     */
     private void add(int index, int value) {
 
         if (index > size){
