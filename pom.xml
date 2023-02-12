@@ -18,6 +18,7 @@
         <module>Java_InsertDataByJdbc</module>
         <module>Java_Interview</module>
         <module>Java_Algorithm</module>
+        <module>Java_RocketMQ</module>
     </modules>
 
 
